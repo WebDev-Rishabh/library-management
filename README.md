@@ -1,12 +1,39 @@
-# React + Vite
+# 📚 Online Library System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web application for browsing, adding, searching, and deleting books. Built using **React**, **Redux Toolkit**, and **React Router**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View books by category (Fiction, Non-Fiction, Sci-Fi, Fantasy, All)
+- Add new books with title, author, description, rating, category, and image
+- Search books by title or author
+- Delete books from the list
+- Responsive and clean UI with intuitive navigation
 
-## Expanding the ESLint configuration
+## 📂 Folder Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+src/
+├── components/ # Reusable components
+├── features/
+│ └── books/ # Redux slice and book data
+├── pages/ # Main pages like BrowseBooks, Home, AddBook
+├── App.js # Main routing logic
+└── main.jsx # Entry point
+
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [React Router DOM](https://reactrouter.com/)
+- [CSS Flex/Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout)
+
+## 🧑‍💻 Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/WebDev-Rishabh/library-management.git
+cd online-library-system
+
+
