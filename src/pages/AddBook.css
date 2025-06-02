@@ -1,0 +1,80 @@
+
+.add-book-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px 40px;
+    background-color: #fdfdfd;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+ 
+  .add-book-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+    font-size: 28px;
+  }
+  
+
+  .book-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  
+  .book-form input,
+  .book-form textarea {
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    outline: none;
+  }
+  
+  .book-form input:focus,
+  .book-form textarea:focus {
+    border-color: #007bff;
+  }
+  
+  
+  .book-form textarea {
+    resize: vertical;
+    min-height: 50px;
+  }
+  
+  /* Submit button */
+  .book-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .book-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive */
+  @media (max-width: 600px) {
+    .add-book-container {
+      padding: 20px;
+    }
+  
+    .book-form input,
+    .book-form textarea {
+      font-size: 14px;
+    }
+  
+    .book-form button {
+      font-size: 15px;
+    }
+  }
+  
