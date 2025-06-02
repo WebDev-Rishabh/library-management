@@ -74,5 +74,31 @@
   .book-cards a:hover {
     text-decoration: underline;
   }
+  .category-dropdown {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-left: 12px;
+    background-color: white;
+    cursor: pointer;
+    max-height: 41px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .category-dropdown:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .filters {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  
   
   

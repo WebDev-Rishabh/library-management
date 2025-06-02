@@ -46,7 +46,7 @@
     min-height: 50px;
   }
   
-  /* Submit button */
+  
   .book-form button {
     background-color: #007bff;
     color: white;
@@ -62,7 +62,7 @@
     background-color: #0056b3;
   }
   
-  /* Responsive */
+ 
   @media (max-width: 600px) {
     .add-book-container {
       padding: 20px;
